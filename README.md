@@ -1,1 +1,15 @@
 # calculadora
+programa {
+	funcao inicio() {
+		inteiro numero
+
+	escreva("digite um número;")
+	leia(numero)
+
+	se(numero>=18) {
+		escreva("É permitido dirigir.\n")
+	} senao {
+		escreva("proibido de dirigir por ser menor de idade.\n")
+	}
+	}
+}
